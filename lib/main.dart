@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/home_page.dart';
+import 'package:flutter_catalog/pages/home_page.dart';
 
 void main() {
-  runApp(Myapp());
+  runApp(const Aqib());
 }
 
-class Myapp extends StatelessWidget {
-  Myapp({Key? key}) : super(key: key);
+class Aqib extends StatelessWidget {
+  const Aqib({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
