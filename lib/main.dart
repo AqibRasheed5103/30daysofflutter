@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/pages/home_page.dart';
 import 'package:flutter_catalog/pages/login_page.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const Aqib());
@@ -15,6 +16,7 @@ class Aqib extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: ThemeData(primarySwatch: Colors.grey),
       darkTheme: ThemeData(
+        fontFamily: GoogleFonts.lato().fontFamily,
         brightness: Brightness.dark,
       ),
       routes: {
